@@ -12,6 +12,10 @@
 		275121E12215AB0200CDD7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275121E02215AB0200CDD7DA /* Assets.xcassets */; };
 		275121E42215AB0200CDD7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275121E22215AB0200CDD7DA /* LaunchScreen.storyboard */; };
 		275121E72215AB0200CDD7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275121E62215AB0200CDD7DA /* main.m */; };
+		2755277D2286685700786374 /* Procfile in Resources */ = {isa = PBXBuildFile; fileRef = 2755277B2286685700786374 /* Procfile */; };
+		2755277E2286685700786374 /* composer.json in Resources */ = {isa = PBXBuildFile; fileRef = 2755277C2286685700786374 /* composer.json */; };
+		275527812286686E00786374 /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = 2755277F2286686E00786374 /* index.php */; };
+		275527822286686E00786374 /* uploadFlight.php in Resources */ = {isa = PBXBuildFile; fileRef = 275527802286686E00786374 /* uploadFlight.php */; };
 		27610D9A22401C94001435F2 /* BrowseFlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610D9922401C94001435F2 /* BrowseFlightsViewController.m */; };
 		27610D9D224026F5001435F2 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610D9C224026F5001435F2 /* MapController.m */; };
 		27610DA022403E94001435F2 /* AircraftAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610D9F22403E94001435F2 /* AircraftAnnotationView.m */; };
@@ -37,6 +41,10 @@
 		275121E32215AB0200CDD7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		275121E52215AB0200CDD7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275121E62215AB0200CDD7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2755277B2286685700786374 /* Procfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Procfile; sourceTree = "<group>"; };
+		2755277C2286685700786374 /* composer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = composer.json; sourceTree = "<group>"; };
+		2755277F2286686E00786374 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		275527802286686E00786374 /* uploadFlight.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = uploadFlight.php; sourceTree = "<group>"; };
 		27610D9822401C94001435F2 /* BrowseFlightsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseFlightsViewController.h; sourceTree = "<group>"; };
 		27610D9922401C94001435F2 /* BrowseFlightsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseFlightsViewController.m; sourceTree = "<group>"; };
 		27610D9B224026F5001435F2 /* MapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
@@ -100,9 +108,10 @@
 		275121D62215AB0100CDD7DA /* iFly */ = {
 			isa = PBXGroup;
 			children = (
+				2755277A2286682800786374 /* Web Service Files */,
 				27894CDF2268C5FC00EDCFDF /* Flight Search */,
 				27C96BAE224292BE008B1318 /* Create Flights */,
-				27610D9622401B45001435F2 /* Flight Recreation */,
+				27610D9622401B45001435F2 /* Autonomous Flight */,
 				27AD1FE522384D7900A116CA /* User Login */,
 				275121D72215AB0100CDD7DA /* AppDelegate.h */,
 				275121D82215AB0100CDD7DA /* AppDelegate.m */,
@@ -118,7 +127,18 @@
 			path = iFly;
 			sourceTree = "<group>";
 		};
-		27610D9622401B45001435F2 /* Flight Recreation */ = {
+		2755277A2286682800786374 /* Web Service Files */ = {
+			isa = PBXGroup;
+			children = (
+				2755277F2286686E00786374 /* index.php */,
+				275527802286686E00786374 /* uploadFlight.php */,
+				2755277C2286685700786374 /* composer.json */,
+				2755277B2286685700786374 /* Procfile */,
+			);
+			path = "Web Service Files";
+			sourceTree = "<group>";
+		};
+		27610D9622401B45001435F2 /* Autonomous Flight */ = {
 			isa = PBXGroup;
 			children = (
 				27610D9B224026F5001435F2 /* MapController.h */,
@@ -131,7 +151,7 @@
 				27610DA222403EB0001435F2 /* AircraftAnnotation.m */,
 				27FDA0E3224A5CAA0041FA64 /* Additional Views */,
 			);
-			path = "Flight Recreation";
+			path = "Autonomous Flight";
 			sourceTree = "<group>";
 		};
 		27894CDF2268C5FC00EDCFDF /* Flight Search */ = {
@@ -253,10 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2755277D2286685700786374 /* Procfile in Resources */,
+				275527822286686E00786374 /* uploadFlight.php in Resources */,
 				275121E42215AB0200CDD7DA /* LaunchScreen.storyboard in Resources */,
 				275121E12215AB0200CDD7DA /* Assets.xcassets in Resources */,
 				275121DF2215AB0100CDD7DA /* Main.storyboard in Resources */,
 				27BF2B9322539F9B000B86ED /* SaveFlightViewController.xib in Resources */,
+				2755277E2286685700786374 /* composer.json in Resources */,
+				275527812286686E00786374 /* index.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
