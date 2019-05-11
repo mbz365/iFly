@@ -1,0 +1,1 @@
+../../../DJIWidget/DJIWidget/VideoPreviewer/Render/Upload/DJILiveViewRenderDataSource_Private.h

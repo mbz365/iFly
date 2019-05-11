@@ -1,0 +1,1 @@
+../../../DJIWidget/DJIWidget/VideoLiveCamera/ShootPhoto/DJILiveViewDammyCameraTakePhotoSession.h

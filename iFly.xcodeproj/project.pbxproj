@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275121D92215AB0100CDD7DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 275121D82215AB0100CDD7DA /* AppDelegate.m */; };
+		275121DF2215AB0100CDD7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275121DD2215AB0100CDD7DA /* Main.storyboard */; };
+		275121E12215AB0200CDD7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275121E02215AB0200CDD7DA /* Assets.xcassets */; };
+		275121E42215AB0200CDD7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275121E22215AB0200CDD7DA /* LaunchScreen.storyboard */; };
+		275121E72215AB0200CDD7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275121E62215AB0200CDD7DA /* main.m */; };
+		27610D9A22401C94001435F2 /* BrowseFlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610D9922401C94001435F2 /* BrowseFlightsViewController.m */; };
+		27610D9D224026F5001435F2 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610D9C224026F5001435F2 /* MapController.m */; };
+		27610DA022403E94001435F2 /* AircraftAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610D9F22403E94001435F2 /* AircraftAnnotationView.m */; };
+		27610DA322403EB0001435F2 /* AircraftAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610DA222403EB0001435F2 /* AircraftAnnotation.m */; };
+		27610DA622404736001435F2 /* Definitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27610DA522404736001435F2 /* Definitions.m */; };
+		27894CE32268CC1000EDCFDF /* FlightSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27894CE22268CC1000EDCFDF /* FlightSearchViewController.m */; };
+		279D66042274AC1900BDA175 /* LoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D66032274AC1900BDA175 /* LoggedInViewController.m */; };
+		27A6BD24227CBC580083F915 /* CreateFlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A6BD23227CBC580083F915 /* CreateFlightsViewController.m */; };
+		27AD1FE1223844C800A116CA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD1FDF223844C800A116CA /* RegisterViewController.swift */; };
+		27AD1FE2223844C800A116CA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD1FE0223844C800A116CA /* SignInViewController.swift */; };
+		27BF2B9222539F9B000B86ED /* SaveFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF2B9022539F9B000B86ED /* SaveFlightViewController.m */; };
+		27BF2B9322539F9B000B86ED /* SaveFlightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BF2B9122539F9B000B86ED /* SaveFlightViewController.xib */; };
+		27C96BB1224292FE008B1318 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C96BB0224292FE008B1318 /* User.m */; };
+		4C80B333C78C13C31EAC8192 /* libPods-iFly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639A68D6109550E1BFBB566E /* libPods-iFly.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		275121D42215AB0100CDD7DA /* iFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275121D72215AB0100CDD7DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		275121D82215AB0100CDD7DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		275121DE2215AB0100CDD7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		275121E02215AB0200CDD7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275121E32215AB0200CDD7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		275121E52215AB0200CDD7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275121E62215AB0200CDD7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27610D9822401C94001435F2 /* BrowseFlightsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseFlightsViewController.h; sourceTree = "<group>"; };
+		27610D9922401C94001435F2 /* BrowseFlightsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseFlightsViewController.m; sourceTree = "<group>"; };
+		27610D9B224026F5001435F2 /* MapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		27610D9C224026F5001435F2 /* MapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		27610D9E22403E94001435F2 /* AircraftAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftAnnotationView.h; sourceTree = "<group>"; };
+		27610D9F22403E94001435F2 /* AircraftAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftAnnotationView.m; sourceTree = "<group>"; };
+		27610DA122403EB0001435F2 /* AircraftAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftAnnotation.h; sourceTree = "<group>"; };
+		27610DA222403EB0001435F2 /* AircraftAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftAnnotation.m; sourceTree = "<group>"; };
+		27610DA422404736001435F2 /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		27610DA522404736001435F2 /* Definitions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Definitions.m; sourceTree = "<group>"; };
+		27894CE12268CC1000EDCFDF /* FlightSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightSearchViewController.h; sourceTree = "<group>"; };
+		27894CE22268CC1000EDCFDF /* FlightSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightSearchViewController.m; sourceTree = "<group>"; };
+		279D66022274AC1900BDA175 /* LoggedInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggedInViewController.h; sourceTree = "<group>"; };
+		279D66032274AC1900BDA175 /* LoggedInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoggedInViewController.m; sourceTree = "<group>"; };
+		27A6BD22227CBC480083F915 /* CreateFlightsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFlightsViewController.h; sourceTree = "<group>"; };
+		27A6BD23227CBC580083F915 /* CreateFlightsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateFlightsViewController.m; sourceTree = "<group>"; };
+		27AD1FDF223844C800A116CA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
+		27AD1FE0223844C800A116CA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		27BF2B8F22539F9B000B86ED /* SaveFlightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveFlightViewController.h; sourceTree = "<group>"; };
+		27BF2B9022539F9B000B86ED /* SaveFlightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveFlightViewController.m; sourceTree = "<group>"; };
+		27BF2B9122539F9B000B86ED /* SaveFlightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveFlightViewController.xib; sourceTree = "<group>"; };
+		27C96BAF224292FE008B1318 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		27C96BB0224292FE008B1318 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		27C96BB22242B7D4008B1318 /* iFly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFly-Bridging-Header.h"; sourceTree = "<group>"; };
+		639A68D6109550E1BFBB566E /* libPods-iFly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iFly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B414E1D0A5EF1D59EE0FC01 /* libPods-FPVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FPVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51508811FD7A5C64F32BCF1 /* Pods-iFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFly.release.xcconfig"; path = "Pods/Target Support Files/Pods-iFly/Pods-iFly.release.xcconfig"; sourceTree = "<group>"; };
+		FF6AD23FE079AF0064E0B24D /* Pods-iFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iFly/Pods-iFly.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275121D12215AB0100CDD7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80B333C78C13C31EAC8192 /* libPods-iFly.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275121CB2215AB0100CDD7DA = {
+			isa = PBXGroup;
+			children = (
+				275121D62215AB0100CDD7DA /* iFly */,
+				275121D52215AB0100CDD7DA /* Products */,
+				A830DFF3D0CFE5D2499A87BE /* Pods */,
+				7BFFEE1FD0958DDD05CC8F7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		275121D52215AB0100CDD7DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275121D42215AB0100CDD7DA /* iFly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275121D62215AB0100CDD7DA /* iFly */ = {
+			isa = PBXGroup;
+			children = (
+				27894CDF2268C5FC00EDCFDF /* Flight Search */,
+				27C96BAE224292BE008B1318 /* Create Flights */,
+				27610D9622401B45001435F2 /* Flight Recreation */,
+				27AD1FE522384D7900A116CA /* User Login */,
+				275121D72215AB0100CDD7DA /* AppDelegate.h */,
+				275121D82215AB0100CDD7DA /* AppDelegate.m */,
+				275121DD2215AB0100CDD7DA /* Main.storyboard */,
+				27610DA422404736001435F2 /* Definitions.h */,
+				27610DA522404736001435F2 /* Definitions.m */,
+				275121E02215AB0200CDD7DA /* Assets.xcassets */,
+				275121E22215AB0200CDD7DA /* LaunchScreen.storyboard */,
+				275121E52215AB0200CDD7DA /* Info.plist */,
+				275121E62215AB0200CDD7DA /* main.m */,
+				27C96BB22242B7D4008B1318 /* iFly-Bridging-Header.h */,
+			);
+			path = iFly;
+			sourceTree = "<group>";
+		};
+		27610D9622401B45001435F2 /* Flight Recreation */ = {
+			isa = PBXGroup;
+			children = (
+				27610D9B224026F5001435F2 /* MapController.h */,
+				27610D9C224026F5001435F2 /* MapController.m */,
+				27610D9822401C94001435F2 /* BrowseFlightsViewController.h */,
+				27610D9922401C94001435F2 /* BrowseFlightsViewController.m */,
+				27610D9E22403E94001435F2 /* AircraftAnnotationView.h */,
+				27610D9F22403E94001435F2 /* AircraftAnnotationView.m */,
+				27610DA122403EB0001435F2 /* AircraftAnnotation.h */,
+				27610DA222403EB0001435F2 /* AircraftAnnotation.m */,
+				27FDA0E3224A5CAA0041FA64 /* Additional Views */,
+			);
+			path = "Flight Recreation";
+			sourceTree = "<group>";
+		};
+		27894CDF2268C5FC00EDCFDF /* Flight Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Flight Search";
+			sourceTree = "<group>";
+		};
+		27AD1FE522384D7900A116CA /* User Login */ = {
+			isa = PBXGroup;
+			children = (
+				27AD1FE0223844C800A116CA /* SignInViewController.swift */,
+				279D66022274AC1900BDA175 /* LoggedInViewController.h */,
+				279D66032274AC1900BDA175 /* LoggedInViewController.m */,
+				27AD1FDF223844C800A116CA /* RegisterViewController.swift */,
+				27C96BAF224292FE008B1318 /* User.h */,
+				27C96BB0224292FE008B1318 /* User.m */,
+			);
+			path = "User Login";
+			sourceTree = "<group>";
+		};
+		27C96BAE224292BE008B1318 /* Create Flights */ = {
+			isa = PBXGroup;
+			children = (
+				27A6BD23227CBC580083F915 /* CreateFlightsViewController.m */,
+				27A6BD22227CBC480083F915 /* CreateFlightsViewController.h */,
+			);
+			path = "Create Flights";
+			sourceTree = "<group>";
+		};
+		27FDA0E3224A5CAA0041FA64 /* Additional Views */ = {
+			isa = PBXGroup;
+			children = (
+				27894CE12268CC1000EDCFDF /* FlightSearchViewController.h */,
+				27894CE22268CC1000EDCFDF /* FlightSearchViewController.m */,
+				27BF2B8F22539F9B000B86ED /* SaveFlightViewController.h */,
+				27BF2B9022539F9B000B86ED /* SaveFlightViewController.m */,
+				27BF2B9122539F9B000B86ED /* SaveFlightViewController.xib */,
+			);
+			path = "Additional Views";
+			sourceTree = "<group>";
+		};
+		7BFFEE1FD0958DDD05CC8F7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B414E1D0A5EF1D59EE0FC01 /* libPods-FPVDemo.a */,
+				639A68D6109550E1BFBB566E /* libPods-iFly.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A830DFF3D0CFE5D2499A87BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AD23FE079AF0064E0B24D /* Pods-iFly.debug.xcconfig */,
+				F51508811FD7A5C64F32BCF1 /* Pods-iFly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275121D32215AB0100CDD7DA /* iFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275122002215AB0200CDD7DA /* Build configuration list for PBXNativeTarget "iFly" */;
+			buildPhases = (
+				44101FB5F9568EC5C7EBC108 /* [CP] Check Pods Manifest.lock */,
+				275121D02215AB0100CDD7DA /* Sources */,
+				275121D12215AB0100CDD7DA /* Frameworks */,
+				275121D22215AB0100CDD7DA /* Resources */,
+				32F58B55ACA3650704B03736 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFly;
+			productName = FPVDemo;
+			productReference = 275121D42215AB0100CDD7DA /* iFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275121CC2215AB0100CDD7DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mike Buzzard";
+				TargetAttributes = {
+					275121D32215AB0100CDD7DA = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 275121CF2215AB0100CDD7DA /* Build configuration list for PBXProject "iFly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 275121CB2215AB0100CDD7DA;
+			productRefGroup = 275121D52215AB0100CDD7DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275121D32215AB0100CDD7DA /* iFly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275121D22215AB0100CDD7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275121E42215AB0200CDD7DA /* LaunchScreen.storyboard in Resources */,
+				275121E12215AB0200CDD7DA /* Assets.xcassets in Resources */,
+				275121DF2215AB0100CDD7DA /* Main.storyboard in Resources */,
+				27BF2B9322539F9B000B86ED /* SaveFlightViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F58B55ACA3650704B03736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iFly/Pods-iFly-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+				"${PODS_ROOT}/DJIWidget/FFmpeg/FFmpeg.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFmpeg.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iFly/Pods-iFly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44101FB5F9568EC5C7EBC108 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275121D02215AB0100CDD7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A6BD24227CBC580083F915 /* CreateFlightsViewController.m in Sources */,
+				27C96BB1224292FE008B1318 /* User.m in Sources */,
+				27AD1FE1223844C800A116CA /* RegisterViewController.swift in Sources */,
+				27610DA022403E94001435F2 /* AircraftAnnotationView.m in Sources */,
+				27AD1FE2223844C800A116CA /* SignInViewController.swift in Sources */,
+				275121E72215AB0200CDD7DA /* main.m in Sources */,
+				27610D9D224026F5001435F2 /* MapController.m in Sources */,
+				27894CE32268CC1000EDCFDF /* FlightSearchViewController.m in Sources */,
+				275121D92215AB0100CDD7DA /* AppDelegate.m in Sources */,
+				279D66042274AC1900BDA175 /* LoggedInViewController.m in Sources */,
+				27610DA322403EB0001435F2 /* AircraftAnnotation.m in Sources */,
+				27610DA622404736001435F2 /* Definitions.m in Sources */,
+				27610D9A22401C94001435F2 /* BrowseFlightsViewController.m in Sources */,
+				27BF2B9222539F9B000B86ED /* SaveFlightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		275121DD2215AB0100CDD7DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275121DE2215AB0100CDD7DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		275121E22215AB0200CDD7DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275121E32215AB0200CDD7DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275121FE2215AB0200CDD7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "iFly/iFly-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		275121FF2215AB0200CDD7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "iFly/iFly-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275122012215AB0200CDD7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6AD23FE079AF0064E0B24D /* Pods-iFly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5YH7Z3CV6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = iFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mike.iFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		275122022215AB0200CDD7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51508811FD7A5C64F32BCF1 /* Pods-iFly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5YH7Z3CV6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = iFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mike.iFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275121CF2215AB0100CDD7DA /* Build configuration list for PBXProject "iFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275121FE2215AB0200CDD7DA /* Debug */,
+				275121FF2215AB0200CDD7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275122002215AB0200CDD7DA /* Build configuration list for PBXNativeTarget "iFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275122012215AB0200CDD7DA /* Debug */,
+				275122022215AB0200CDD7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275121CC2215AB0100CDD7DA /* Project object */;
+}

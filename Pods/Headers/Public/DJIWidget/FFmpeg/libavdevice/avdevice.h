@@ -1,0 +1,1 @@
+../../../../../DJIWidget/FFmpeg/FFmpeg.framework/Headers/libavdevice/avdevice.h

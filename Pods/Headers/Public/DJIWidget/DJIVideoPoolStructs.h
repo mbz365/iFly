@@ -1,0 +1,1 @@
+../../../DJIWidget/DJIWidget/VideoPreviewer/DJIVideoPoolStructs.h

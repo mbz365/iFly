@@ -1,0 +1,1 @@
+../../../DJIWidget/DJIWidget/VideoLiveCamera/DJILiveViewDammyCameraStructs.h

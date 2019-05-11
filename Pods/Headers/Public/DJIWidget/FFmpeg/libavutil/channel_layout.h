@@ -1,0 +1,1 @@
+../../../../../DJIWidget/FFmpeg/FFmpeg.framework/Headers/libavutil/channel_layout.h

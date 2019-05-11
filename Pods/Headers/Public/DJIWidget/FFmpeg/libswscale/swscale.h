@@ -1,0 +1,1 @@
+../../../../../DJIWidget/FFmpeg/FFmpeg.framework/Headers/libswscale/swscale.h
